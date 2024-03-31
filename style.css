@@ -77,3 +77,35 @@ top:95%;
 .sec::after{
     content:'SEC';
 }
+@media screen and (max-width:768px)
+{
+.container
+{
+    width:100%;
+    margin:0px 30px;
+}
+.container::before{
+    width:150px;
+    height:150px;
+    position:absolute;
+    top:32%;
+   left:0%;
+}
+.container::after{
+    width:140px;
+    height:140px;
+    position:absolute;
+    bottom:32%;
+   right:0%;
+}
+.clock span{
+    font-size:55px;
+    width:60px;
+    padding-bottom:18px;
+}
+.clock span::after{
+ font-size:18px;
+ position:absolute;
+ right:10%;
+}
+}
